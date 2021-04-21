@@ -540,14 +540,15 @@ textarea {
     padding: 16px;
 } */
 
-@media screen and (max-height: 450px) {
+
+/* @media screen and (max-height: 450px) {
     .sidenav {
         padding-top: 15px;
     }
     .sidenav a {
         font-size: 18px;
     }
-}
+} */
 
 header {
     height: 95vh;
@@ -574,7 +575,8 @@ body {
     transition: background-color .5s;
 }
 
-.sidenav {
+
+/* .sidenav {
     height: 100%;
     width: 0;
     position: fixed;
@@ -582,18 +584,18 @@ body {
     top: 0;
     left: 0;
     background-color: #111;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
     transition: 0.5s;
     display: flex;
-    /* margin-top: 39px; */
-}
+    margin-top: 39px;
+} */
 
 .sidenav a {
     padding: 8px 8px 8px 163px;
     text-decoration: none;
     font-size: 25px;
     color: #000000;
-    display: block;
+    display: inline-block;
     transition: 0.3s;
 }
 
@@ -629,15 +631,15 @@ body {
 }
 
 .pic {
-    height: 800px;
-    margin: 20px;
+    height: 606px;
+    margin: 85px;
 }
 
 .info {
     padding-left: 60px;
     text-align: center;
-    font-size: 28px;
-    margin-top: 130px;
+    font-size: 25px;
+    margin-top: 138px;
     font-family: 'Playfair Display', serif;
 }
 
