@@ -492,19 +492,27 @@ textarea {
     padding: 0.2em 0;
 }
 
-.header-container {
+/* .header-container {
     height: 95vh;
-    /* background-image: linear-gradient(to right bottom, #ebf0e98f, #43464528), url(https://images.unsplash.com/photo-1565098772267-60af42b81ef2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1084&q=80); */
+    background-image: linear-gradient(to right bottom, #ebf0e98f, #43464528), url(https://images.unsplash.com/photo-1565098772267-60af42b81ef2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1084&q=80);
     background-size: cover;
     background-position: top;
     position: -webkit-sticky;
     position: sticky;
-}
-
-body {
+} */
+body{
     background-image: linear-gradient(to right bottom, #ebf0e98f, #43464528), url(https://images.unsplash.com/photo-1565098772267-60af42b81ef2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1084&q=80);
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin: -13%;
 }
 
+@media only screen and (min-width: 768px){
+    .col-12 {width: 100%;}
+}
 .main {
     width: 90%;
     height: 50%;
@@ -646,13 +654,13 @@ textarea {
 /* icons */
 
 .fa {
-    padding: 20px;
+    /* padding: 20px; */
     font-size: 30px;
-    width: 50px;
+    /* width: 50px; */
     text-align: center;
     text-decoration: none;
-    /* margin: 5px 5px 20px; */
-    margin-left: 10%;
+    margin: 22px 105px 22px;
+    
 }
 
 .fa:hover {
@@ -749,4 +757,4 @@ body {
 }
 
 
-/* grid */
+grid

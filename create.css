@@ -1,0 +1,104 @@
+body{
+    background-image: linear-gradient(to right bottom, #ebf0e98f, #43464528), url(https://images.unsplash.com/photo-1565098772267-60af42b81ef2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1084&q=80);
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.heading {
+    text-align: center;
+    padding-top: 300px;
+    font-size: 60px;
+    font-family: 'Playfair Display', serif;
+    color: white;
+}
+/* side navingation bar */
+
+.navbar,
+a {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.fixed-top {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+.navbar {
+    background-color: aqua;
+}
+/* icons */
+
+.fa {
+    /* padding: 20px; */
+    font-size: 30px;
+    /* width: 50px; */
+    text-align: center;
+    text-decoration: none;
+    
+    margin: 22px 105px 22px;
+    /* margin-left: 10%; */
+}
+
+.fa:hover {
+    opacity: 0.7;
+    text-decoration: none;
+    color: #54EAE4;
+}
+
+.fa-facebook {
+    background: rgba(0, 0, 0, 0.00001);
+    color: rgb(10, 10, 10);
+    font-size: 60px;
+    text-decoration: none;
+}
+
+.fa-twitter {
+    background: rgba(0, 0, 0, 0.00001);
+    color: black;
+    font-size: 60px;
+    text-decoration: none;
+}
+
+.fa-github {
+    background: rgba(0, 0, 0, 0.00001);
+    color: rgb(8, 8, 8);
+    font-size: 60px;
+    text-decoration: none;
+}
+
+.fa-google {
+    background: rgba(0, 0, 0, 0.00001);
+    color: rgb(12, 12, 12);
+    font-size: 60px;
+    text-decoration: none;
+}
+
+
+section#About{
+    
+    display: flex;
+}
+
+.pic {
+    /* height: 606px; */
+    margin: 85px;
+}
+
+.info {
+    /* padding-left: 60px; */
+    /* text-align: center; */
+    font-size: 19px;
+    /* margin-top: 138px; */
+    font-family: 'Playfair Display', serif;
+}
+
+
+
