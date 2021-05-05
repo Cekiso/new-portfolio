@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(to right bottom, #ebf0e98f, #43464528), url(https://images.unsplash.com/photo-1565098772267-60af42b81ef2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1084&q=80);
+    background-image: url(https://images.unsplash.com/photo-1565098772267-60af42b81ef2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1084&q=80);
     height: 500px;
     width: auto;
     background-position-x: center;
@@ -43,45 +43,44 @@ a {
 /* icons */
 
 .fa {
-    /* padding: 20px; */
+    padding: 20px;
     font-size: 30px;
-    /* width: 50px; */
+    width: 50px;
     text-align: center;
     text-decoration: none;
-    margin: 22px 105px 22px;
-    /* margin-left: 10%; */
+    margin: 5px 20px;
 }
 
 .fa:hover {
     opacity: 0.7;
     text-decoration: none;
-    color: #54EAE4;
+    color: yellow;
 }
 
 .fa-facebook {
     background: rgba(0, 0, 0, 0.00001);
-    color: rgb(10, 10, 10);
+    color: white;
     font-size: 60px;
     text-decoration: none;
 }
 
 .fa-twitter {
     background: rgba(0, 0, 0, 0.00001);
-    color: black;
+    color: white;
     font-size: 60px;
     text-decoration: none;
 }
 
-.fa-github {
+.fa-whatsapp {
     background: rgba(0, 0, 0, 0.00001);
-    color: rgb(8, 8, 8);
+    color: white;
     font-size: 60px;
     text-decoration: none;
 }
 
 .fa-google {
     background: rgba(0, 0, 0, 0.00001);
-    color: rgb(12, 12, 12);
+    color: white;
     font-size: 60px;
     text-decoration: none;
 }
@@ -103,7 +102,7 @@ h2 {
 
 .About {
     display: flex;
-    margin-top: 40%;
+    margin-top: 45%;
     justify-content: space-around;
 }
 
